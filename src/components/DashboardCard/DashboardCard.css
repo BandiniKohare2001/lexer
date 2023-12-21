@@ -1,0 +1,17 @@
+.card{
+    height: 300px;
+    width: 375px;
+    border: 1px solid gray;
+    border-radius: 23px !important;
+}
+.title{
+    top: 30px;
+    left: 30px;
+    position: absolute;
+}
+.number{
+    top: 150px;
+    position: absolute;
+    left: 130px;
+    color: rgb(6, 200, 6);
+}
