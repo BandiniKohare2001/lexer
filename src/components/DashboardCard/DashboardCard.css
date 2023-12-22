@@ -1,8 +1,4 @@
-.card{
-    /* height: 300px;
-    width: 377px;
-    border: 1px solid gray;
-    border-radius: 23px !important; */
+.card-1{
     height: 280px;
     width: 377px;
     border: 1px solid gray;
@@ -14,6 +10,7 @@
     top: 30px;
     left: 30px;
     position: absolute;
+    color: white;
 }
 .number{
     top: 150px;
@@ -21,3 +18,4 @@
     left: 130px;
     color: rgb(6, 200, 6);
 }
+

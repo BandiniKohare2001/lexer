@@ -13,6 +13,7 @@ export default function LexStack() {
                 <div>
                     <p className="stack-heading">Stake LEX and esLEX to earn rewards from variant LP pools.</p>
                 </div>
+                <div className="claimable-reward">Claimable Rewards:<span className="num"> $0.00</span> </div>
                 <div className="d-flex justify-content-between">
                     <StackCard stacklextitle="LEX" stacklexnumber="$0.0040" wallet="0.00 LEX ($0.00"
                         staked="0.00 LEX ($0.00)" apr="

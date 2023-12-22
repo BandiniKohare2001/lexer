@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import menu from './../../asset/menu.png'
 import connect from './../../asset/connect-icon.png'
+import { Link } from 'react-router-dom'
 import close from './../../asset/close.png'
 import "./Navbar.css"
 const ToggleSidebar = () => {
@@ -34,13 +35,13 @@ const ToggleSidebar = () => {
                       </div>
                       <div className="sd-body">
                           <ul>
-                              <li><a className="mb-0 sd-link">Dashboard</a></li>
-                              <li><a className="sd-link">Migrate V1 Assets</a></li>
-                              <li><a className="sd-link">LexStake</a></li>
-                              <li><a className="sd-link">Liquidty</a></li>
-                              <li><a className="sd-link">Trade</a></li>
-                              <li><a className="sd-link">Leaderboard</a></li>
-                              <li><a className="sd-link">V2 Launch</a></li>
+                              <li><Link to="/" className="mb-0 sd-link">Dashboard</Link></li>
+                              <li><Link to="#" className="sd-link">Migrate V1 Assets</Link></li>
+                              <li><Link to="/lexstack" className="sd-link">LexStake</Link></li>
+                              <li><Link to="#" className="sd-link">Liquidty</Link></li>
+                              <li><Link to="#" className="sd-link">Trade</Link></li>
+                              <li><Link to="leaderboard" className="sd-link">Leaderboard</Link></li>
+                              <li><Link to="#" className="sd-link">V2 Launch</Link></li>
                              
                           </ul>
                       </div>

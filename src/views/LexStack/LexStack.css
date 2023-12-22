@@ -2,15 +2,30 @@
     padding-top: 70px;
     padding: 40px;
     padding: 40px;
-    background-image: linear-gradient( 200deg,  #7f91c6,#a8b7d3,#7f91c6 , #2a303d,#1a1e28,#192855,  #192855, #4d5979);
+    background-image: linear-gradient( 200deg,  #7f91c6,#a8b7d3 ,#536996,  #192855,  #192855,#142351, #1a1e28, #1a1e28,#1a1e28);
 }
 .stack-heading{
     text-align: center;
     color: white;
     font-family: Sk-Modernist,sans-serif;
 }
+.claimable-reward{
+    text-align: center;
+    background-color: #192855;
+    padding: 1rem;
+    color: white;
+    height: 50px;
+    border-radius: 15px;
+    margin: 30px;
+    width: 100%;
+    margin-left: -5px;
+}
+.num{
+    color: rgb(6, 200, 6);
+
+}
 .lex-valute{
-    height: 280px;
+    height: 300px;
     margin-top: 50px;
     margin-bottom: 90px;
     color: white;
