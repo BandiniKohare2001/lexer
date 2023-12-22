@@ -1,8 +1,14 @@
 .card{
-    height: 300px;
-    width: 375px;
+    /* height: 300px;
+    width: 377px;
+    border: 1px solid gray;
+    border-radius: 23px !important; */
+    height: 280px;
+    width: 377px;
     border: 1px solid gray;
     border-radius: 23px !important;
+    position: relative;
+    padding: 25px;
 }
 .title{
     top: 30px;

@@ -1,0 +1,93 @@
+.card-data{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 15px;
+    color: white;
+}
+.card-2{
+    height: 280px;
+    width: 566px;
+    border: 2px solid rgb(83, 89, 104);
+    border-radius: 23px !important;
+    position: relative;
+    padding: 25px;
+}
+.icon{
+    height:45px;
+    margin: 15px;
+}
+
+
+
+hr{
+    height: 0.5px;
+    background-color: gray;
+}
+.stack-card{
+    height: 500px;
+    width: 580px;
+    border: 2px solid rgb(129, 138, 160);
+    border-radius: 24px;
+    padding: 30px;
+    color: white;
+}
+
+.stack-card-2{
+    height: 500px;
+    width: 580px;
+    border: 2px solid rgb(129, 138, 160);
+    border-radius: 24px;
+    padding: 30px;
+    color: white;
+    margin-left: 20px;
+}
+.card2-total-stacked{
+    height: 150px;
+    border-radius: 22px;
+    border: 1px solid rgb(69, 69, 69);
+    padding: 10px 30px; 
+    width: 250px; 
+    background-color: #0d1b46;
+}
+.lex-icon{
+    height: 30px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.stack-title{
+    margin-left: 10px;
+}
+.card2-data{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin: 15px;
+}
+.total-stacked{
+    height: 70px;
+    border-radius: 22px;
+    border: 1px solid rgb(69, 69, 69);
+    padding: 10px 30px;
+}
+.total-stacke-number{
+    margin-top: -20px;
+    text-align: center;
+}
+.buy-lex{
+    background: linear-gradient(180deg,#0f6abe 16.67%,#16abff 90.62%);
+    color: #fff;
+    line-height: 1;
+    width: 100%;
+    margin-top: 20px;
+    height: 43px;
+    border-radius: 10rem;
+    box-shadow: -2px -4px 4px #00000040 inset, 0 4px 4px #00000040;
+
+}
+.data-name{
+    color: rgb(217, 217, 215);
+}
+.data-value{
+    color: white;
+}
