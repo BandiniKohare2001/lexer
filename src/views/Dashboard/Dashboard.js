@@ -18,8 +18,8 @@ export default function Dashboard() {
             </div>
 
             <div  className="card2-container">
-                <Card logo="https://app.lexer.markets/assets/corecrypto-16dfbe5b.svg" price="$1.021" tvl="$52,713.07" apr="27.51%" percentage="53.83%"/>
-                <Card logo="https://app.lexer.markets/assets/ic_usdc_24-3b8acc8e.svg" price="$1.021" tvl="$52,713.07" apr="27.51%" percentage="53.83%"/>
+                <Card logo="https://app.lexer.markets/assets/corecrypto-16dfbe5b.svg" price="$1.021" tvl="$52,713.07" apr="27.51%" percentage="53.83%" text="mXLP"/>
+                <Card logo="https://app.lexer.markets/assets/ic_usdc_24-3b8acc8e.svg" price="$1.021" tvl="$52,713.07" apr="27.51%" percentage="53.83%" text="sXLP"/>
             </div>
          
             <div className="lex-container">

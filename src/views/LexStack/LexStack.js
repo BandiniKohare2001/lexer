@@ -53,7 +53,7 @@ export default function LexStack() {
                      
                     </div>
                   
-                    <div><button className="buy-lex mt-2">Connect Wallet</button></div>
+                    <div><button className="buy-lex-btm mt-2">Connect Wallet</button></div>
                 </div>
 
             </div>

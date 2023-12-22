@@ -74,7 +74,7 @@ hr{
     margin-top: -20px;
     text-align: center;
 }
-.buy-lex{
+.buy-lex-btm{
     background: linear-gradient(180deg,#0f6abe 16.67%,#16abff 90.62%);
     color: #fff;
     line-height: 1;
@@ -84,6 +84,10 @@ hr{
     border-radius: 10rem;
     box-shadow: -2px -4px 4px #00000040 inset, 0 4px 4px #00000040;
 
+}
+.bold{
+    font-weight: bold;
+    font-size: 25px;
 }
 .data-name{
     color: rgb(217, 217, 215);

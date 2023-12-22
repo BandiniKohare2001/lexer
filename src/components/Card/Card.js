@@ -1,12 +1,12 @@
 import "./Card.css"
-export function Card({ logo, price, tvl, apr, percentage, graphcircle }) {
+export function Card({ logo, price, tvl, apr, percentage, graphcircle , text}) {
     return (
         <>
             <div>
 
                 <div className="card-2">
                     <div>
-                        <img src={logo} className="icon" />mXLP
+                        <img src={logo} className="icon" /><span className="text-light bold">{text}</span>
                     </div>
                     <div className="card-data">
                         <span>Price</span>
@@ -18,7 +18,7 @@ export function Card({ logo, price, tvl, apr, percentage, graphcircle }) {
                     </div>
                     <div className="card-data">
                         <span>APR</span>
-                        <span>{tvl}</span>
+                        <span>{apr}</span>
                     </div>
                     <div className="card-data">
                         <span>Stables Percentage
@@ -71,7 +71,8 @@ export function StackCard({ stacklextitle, stacklexnumber, wallet, staked, apr, 
                     </div>
                     <div className="total-stacked data-name"><p>Total Staked</p>
                         <p className="total-stacke-number data-value">10,976,638.16 LEX ($44,488.31)</p></div>
-                    <div><button className="buy-lex">Buy LEX</button></div>
+                    <div>
+                        <button className="buy-lex-btm">Buy LEX</button></div>
                 </div>
 
 
@@ -114,7 +115,7 @@ export function StackCard({ stacklextitle, stacklexnumber, wallet, staked, apr, 
                     </div>
 
                   </div>
-                    <div><button className="buy-lex">Connect Wallet</button></div>
+                    <div><button className="buy-lex-btm">Connect Wallet</button></div>
                 </div>
             </div>
         </>
