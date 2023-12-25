@@ -38,7 +38,7 @@ const ToggleSidebar = () => {
                               <li><Link to="/" className="mb-0 sd-link">Dashboard</Link></li>
                               <li><Link to="#" className="sd-link">Migrate V1 Assets</Link></li>
                               <li><Link to="/lexstack" className="sd-link">LexStake</Link></li>
-                              <li><Link to="#" className="sd-link">Liquidty</Link></li>
+                              <li><Link to="/liquidity" className="sd-link">Liquidty</Link></li>
                               <li><Link to="#" className="sd-link">Trade</Link></li>
                               <li><Link to="/leaderboard" className="sd-link">Leaderboard</Link></li>
                               <li><Link to="#" className="sd-link">V2 Launch</Link></li>

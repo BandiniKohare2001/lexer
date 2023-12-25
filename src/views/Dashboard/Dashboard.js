@@ -2,8 +2,14 @@ import "./Dashboard.css"
 import ToggleSidebar from './../../components/Navbar/Navbar'
 import { Card } from './../../components/Card/Card'
 import DashboardCard from "../../components/DashboardCard/DashboardCard";
+// import PieChart from "../../components/PieChart/PieChart";
+
+
 
 export default function Dashboard() {
+
+   
+
     return (
         <>
           
@@ -31,7 +37,7 @@ export default function Dashboard() {
                     <span className="lex-number">$0.0040</span>
                 </div>
             </div>
-
+            {/* <PieChart data={chartData} labels={chartLabels} borderColor={borderColor} /> */}
 
            
 
