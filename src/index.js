@@ -6,12 +6,17 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import LexStack from './views/LexStack/LexStack';
 import Dashboard from './views/Dashboard/Dashboard';
 import Liquidity from './views/Liquidity/Liquidity';
+import Trade from './views/Trade/Trade';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Dashboard />,
+  },
+  {
+    path:"/trade",
+    element:<Trade />
   },
   {
     path:"/lexstack",
